@@ -1,0 +1,255 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the header */
+header {
+    width: 100%; /* Full width */
+    background-color: #edf2fb; /* Background color (blue in this example) */
+    color: rgb(0, 0, 0); /* Text color */
+    padding: 20px; /* Padding inside the header */
+    box-sizing: border-box; /* Include padding and border in the element's width and height */
+}
+
+/* Style for the header title */
+header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 2em; /* Font size for the header title */
+    text-align: left; /* Align title to the left */
+}
+
+/* Style for the navigation menu */
+header nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Margin around the navigation */
+    text-align: right; /* Align the navigation items to the right */
+    border-bottom: 3px solid black; /* Add bottom border */
+
+}
+
+/* Style for the navigation links */
+header nav ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Spacing between links */
+}
+
+header nav ul li:last-child {
+    margin-right: 0; /* Remove the margin after the last item */
+}
+
+header nav ul li a {
+    font-family: 'Roboto Mono', monospace; /* Updated font family */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.2em; /* Font size for the links */
+}
+
+header nav ul li a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Responsive design: Make the header text and links scale on smaller screens */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5em; /* Smaller font size for smaller screens */
+    }
+
+    header nav ul li a {
+        font-size: 1em; /* Slightly larger font size for links on smaller screens */
+    }
+}
+
+
+
+.link-1 {
+    color: black; /* Green color for the first link */
+    text-decoration: none;
+    font-family:system-ui;        
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.link-2 {
+    color: black; /* Blue color for the second link */
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family:system-ui;        
+    font-weight: bold;
+
+}
+
+.link-3 {
+    color: black; /* Pink color for the third link */
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family:system-ui;        
+    font-weight: bold;
+
+
+}
+
+.link-4 {
+    color: black; /* Pink color for the third link */
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family:system-ui;        
+    font-weight: bold;
+
+}
+
+.link-5 {
+    color: black; /* Pink color for the third link */
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family:system-ui;        
+    font-weight: bold;
+
+}
+
+
+/* Section styling */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures section covers full viewport height */
+}
+
+/* Container styling for image */
+.Container img {
+    height: 300px;
+    border-radius: 50%;
+    border: none; /* Ensure no border around image */
+}
+
+/* Container styling for heading */
+.Container h2 {
+    margin-top: 2%;
+    font-size: 3em;
+    font-family: Courier New, monospace	 /* Font for the title */
+}
+
+/* Container styling for paragraph and unordered list */
+.Container p, ul {
+    margin-top: 2%;
+    font-size: 1.5rem;
+}
+
+/* Footer styling */
+
+
+/* Navigation bar styling */
+header nav ul li a {
+    font-size: 0.9em; /* Smaller font size for the nav bar */
+}
+
+#top{
+    min-height: 290px; /* Minimum height */
+    max-height: 290px; /* Maximum height */
+    background-image: url(/images/background.png);
+    background-size: cover;
+    padding: 20px;
+    
+
+}
+
+#bottom{
+    min-height: 230px; /* Minimum height */
+    max-height: 230px; /* Maximum height */
+    background-color:#e2eafc;
+    background-size: cover;
+    background-position: right center; /* Positions the image on the right side */
+    background-size: auto 100%; /* Adjusts the image height to 100% of the container height, width is auto */
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+    width: 100%;
+    height: 400px; /* Example height, adjust as needed */
+
+
+
+}
+
+#wanttolearn {
+    background-color: #ffffff;
+    padding: 20px;
+    
+}
+
+
+
+.half {
+    width: 50%; /* Half of the section */
+    height: 100%; /* Full height of the section */
+}
+
+.left2 {
+    height: 100vh; /* Full height of the viewport */
+    background-color: #ffffff;
+    background-size: cover; /* Cover half of the section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 175px;
+    padding-bottom: 150px;
+    padding-left: 90px;
+    padding-right: 98px;
+}
+
+.right2 {
+    background-color: #ffffff; /* Background color for the other half */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0); /* Text color */
+    text-align: center;
+
+}
+
+#wanttojoin {
+    background-color: #ffffff;
+    padding: 20px;
+    
+}
+
+
+
+.half2 {
+    width: 50%; /* Half of the section */
+    height: 100%; /* Full height of the section */
+}
+
+.left4 {
+    height: 100vh; /* Full height of the viewport */
+    background-color: #ffffff;
+    background-size: cover; /* Cover half of the section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 175px;
+    padding-bottom: 150px;
+    padding-left: 90px;
+    padding-right: 98px;
+}
+
+.right3 {
+    background-color: #ffffff; /* Background color for the other half */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0); /* Text color */
+    text-align: center;
+
+}
+
+
+
+footer {
+    line-height: 40px;
+    display: flex;
+    background-color: #e2eafc;
+    color:rgb(0, 0, 0)
+}

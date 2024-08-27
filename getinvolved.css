@@ -1,0 +1,235 @@
+/* Reset default styles */
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the header */
+header {
+    width: 100%; /* Full width */
+    background-color: #edf2fb; /* Background color (blue in this example) */
+    color: rgb(0, 0, 0); /* Text color */
+    padding: 20px; /* Padding inside the header */
+    box-sizing: border-box; /* Include padding and border in the element's width and height */
+}
+
+/* Style for the header title */
+header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 2em; /* Font size for the header title */
+    text-align: left; /* Align title to the left */
+}
+
+/* Style for the navigation menu */
+header nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Margin around the navigation */
+    text-align: right; /* Align the navigation items to the right */
+    border-bottom: 3px solid black; /* Add bottom border */
+
+}
+
+/* Style for the navigation links */
+header nav ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Spacing between links */
+}
+
+header nav ul li:last-child {
+    margin-right: 0; /* Remove the margin after the last item */
+}
+
+header nav ul li a {
+    font-family: 'Roboto Mono', monospace; /* Updated font family */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.2em; /* Font size for the links */
+}
+
+header nav ul li a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Responsive design: Make the header text and links scale on smaller screens */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5em; /* Smaller font size for smaller screens */
+    }
+
+    header nav ul li a {
+        font-size: 1em; /* Slightly larger font size for links on smaller screens */
+    }
+}
+
+
+
+.link-1 {
+    color: black; /* Green color for the first link */
+    text-decoration: none;
+    font-family: 'Optima', 'Franklin Gothic Medium', 'Arial Narrow', Arial; /* Font for the title */
+    font-size: 1.2em;
+}
+
+.link-2 {
+    color: black; /* Blue color for the second link */
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: 'Optima', 'Franklin Gothic Medium', 'Arial Narrow', Arial; /* Font for the title */
+
+}
+
+.link-3 {
+    color: black; /* Pink color for the third link */
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: 'Optima', 'Franklin Gothic Medium', 'Arial Narrow', Arial; /* Font for the title */
+
+}
+
+.link-4 {
+    color: black; /* Pink color for the third link */
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: 'Optima', 'Franklin Gothic Medium', 'Arial Narrow', Arial; /* Font for the title */
+
+}
+
+.link-5 {
+    color: black; /* Pink color for the third link */
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: 'Optima', 'Franklin Gothic Medium', 'Arial Narrow', Arial; /* Font for the title */
+
+}
+
+/* Section styling */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures section covers full viewport height */
+}
+
+/* Container styling for image */
+.Container img {
+    height: 300px;
+    border-radius: 50%;
+    border: none; /* Ensure no border around image */
+}
+
+/* Container styling for heading */
+.Container h2 {
+
+    margin-top: 2%;
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Container styling for paragraph and unordered list */
+.Container p, ul {
+    margin-top: 2%;
+    font-size: 1.5rem;
+}
+
+/* Footer styling */
+footer {
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    border: none; /* Ensure no border around footer */
+    background-color: #d7e3fc;
+    color: #000000;
+}
+
+
+/* Navigation bar styling */
+header nav ul li a {
+    font-size: 0.9em; /* Smaller font size for the nav bar */
+}
+
+#wanttolearn {
+    background-color: #ffffff;
+    padding: 20px;
+    
+}
+
+
+
+.half {
+    width: 50%; /* Half of the section */
+    height: 100%; /* Full height of the section */
+}
+
+.left {
+    height: 100vh; /* Full height of the viewport */
+    background-color: #ffffff;
+    background-size: cover; /* Cover half of the section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 175px;
+    padding-bottom: 150px;
+    padding-left: 90px;
+    padding-right: 98px;
+}
+
+.right {
+    height: 100vh; /* Full height of the viewport */
+    background-color: #ffffff;
+    background-size: cover; /* Cover half of the section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 175px;
+    padding-bottom: 150px;
+    padding-left: 90px;
+    padding-right: 98px;
+
+}
+
+#wanttojoin {
+    padding: 20px;
+    background-color: #ffffff ;
+    
+}
+
+
+
+.half1 {
+    width: 50%; /* Half of the section */
+    height: 100%; /* Full height of the section */
+}
+
+.left1 {
+    height: 100vh; /* Full height of the viewport */
+    background-color: #ffffff;
+    background-size: cover; /* Cover half of the section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 175px;
+    padding-bottom: 150px;
+    padding-left: 90px;
+    padding-right: 98px;
+}
+
+.right1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0); /* Text color */
+    text-align: center;
+    background-color: #ffffff;
+}
+
+
+
+footer {
+    line-height: 40px;
+    display: flex;
+    background-color: #edf2fb;
+    color:rgb(0, 0, 0)
+}
