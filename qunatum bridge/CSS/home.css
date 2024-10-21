@@ -157,9 +157,9 @@ header nav ul li a {
 }
 
 #bottom{
-    min-height: 230px; /* Minimum height */
-    max-height: 230px; /* Maximum height */
-    background-color:#e2eafc;
+    min-height: 120px; /* Minimum height */
+    max-height: 120px; /* Maximum height */
+    background-color:#edf0f6;
     background-size: cover;
     background-position: right center; /* Positions the image on the right side */
     background-size: auto 100%; /* Adjusts the image height to 100% of the container height, width is auto */
