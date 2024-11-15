@@ -28,9 +28,11 @@ header nav ul {
     padding: 0; /* Remove padding */
     margin: 0; /* Margin around the navigation */
     text-align: right; /* Align the navigation items to the right */
-    border-bottom: 3px solid black; /* Add bottom border */
+
 
 }
+header {
+border-bottom: 2px solid white; /* Add bottom border */}
 
 /* Style for the navigation links */
 header nav ul li {
@@ -110,6 +112,7 @@ section {
     justify-content: center;
     align-items: center;
     min-height: 100vh; /* Ensures section covers full viewport height */
+
 }
 
 /* Container styling for image */
@@ -150,20 +153,34 @@ header nav ul li a {
     font-size: 0.9em; /* Smaller font size for the nav bar */
 }
 
+
+.logo_div {
+width:100%;
+}
+
+
+
+#logo{
+display:inline-block;
+position: absolute;
+  top: 0;
+  left: 0;}
+
 #mission{
     min-height: 150px; /* Minimum height */
     max-height: 150px; /* Maximum height */
     background-color: #ffffff;
     padding: 20px;
-
-
-
-
+    margin-top:15px;
 }
+
 
 #para{
     background-color: #ffffff;
-    padding: 20px;
+    padding: 0px;
+    padding-bottom:20px;
+    min-height: 30vh;
+    margin-bottom: 30px;
 }
 
 
@@ -186,4 +203,3 @@ header nav ul li a {
     background-color: #edf2fb;
     padding: 20px;
 }
-
