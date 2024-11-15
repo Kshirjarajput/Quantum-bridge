@@ -28,7 +28,6 @@ header nav ul {
     padding: 0; /* Remove padding */
     margin: 0; /* Margin around the navigation */
     text-align: right; /* Align the navigation items to the right */
-    border-bottom: 3px solid black; /* Add bottom border */
 
 }
 
@@ -140,8 +139,10 @@ footer {
     justify-content: center;
     font-size: 1rem;
     border: none; /* Ensure no border around footer */
-    background-color: #d7e3fc;
+    background-color: #d7e3fc
+    ;
     color: #000000;
+
 }
 
 
@@ -151,49 +152,52 @@ header nav ul li a {
 }
 
 #wanttolearn {
-    background-color: #ffffff;
+    background-color: #edf2fb;
     padding: 20px;
-    
+    min-height :15vh;
+    max-height: 35 vh;
+
+
 }
 
 
 
 .half {
     width: 50%; /* Half of the section */
-    height: 100%; /* Full height of the section */
+    align: center;
+    /*height: 100%; /* Full height of the section */
 }
 
 .left {
-    height: 100vh; /* Full height of the viewport */
-    background-color: #ffffff;
+    /*height:100vh; /* Full height of the viewport */
+    background-color: #edf2fb;
     background-size: cover; /* Cover half of the section */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat;
     text-align: center;
-    padding-top: 175px;
-    padding-bottom: 150px;
-    padding-left: 90px;
-    padding-right: 98px;
+    padding-bottom: 7vh;
+    padding-left: 6vw;
+    padding-right: 7vw;
 }
 
 .right {
-    height: 100vh; /* Full height of the viewport */
-    background-color: #ffffff;
+    /*height:100vh; /* Full height of the viewport */
+    background-color: #edf2fb;
     background-size: cover; /* Cover half of the section */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat;
     text-align: center;
-    padding-top: 175px;
-    padding-bottom: 150px;
-    padding-left: 90px;
-    padding-right: 98px;
+    padding-top: 12vh;
+    padding-bottom: 11vh;
+    padding-left: 6vw;
+    padding-right: 7vw;
 
 }
 
 #wanttojoin {
     padding: 20px;
     background-color: #ffffff ;
-    
+
 }
 
 
@@ -227,9 +231,24 @@ header nav ul li a {
 
 
 
-footer {
-    line-height: 40px;
-    display: flex;
-    background-color: #edf2fb;
-    color:rgb(0, 0, 0)
+
+#joinwebinar {
+    min-height:20vh;
 }
+
+header {
+border-bottom: 2px solid white; /* Add bottom border */}
+
+.logo_div {
+width:100%;
+}
+
+
+
+#logo{
+display:inline-block;
+position: absolute;
+  top: 0;
+  left: 0;}
+
+
