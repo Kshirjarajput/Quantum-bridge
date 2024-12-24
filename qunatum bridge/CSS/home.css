@@ -1,0 +1,400 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the header */
+header {
+    width: 100%; /* Full width */
+    background-color: #edf2fb; /* Background color (blue in this example) */
+    color: rgb(0, 0, 0); /* Text color */
+    padding: 20px; /* Padding inside the header */
+    box-sizing: border-box; /* Include padding and border in the element's width and height */
+}
+
+/* Style for the header title */
+header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 2em; /* Font size for the header title */
+    text-align: left; /* Align title to the left */
+}
+
+/* Style for the navigation menu */
+header nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Margin around the navigation */
+    text-align: right; /* Align the navigation items to the right */
+    border-bottom: 3px solid black; /* Add bottom border */
+
+}
+
+/* Style for the navigation links */
+header nav ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Spacing between links */
+}
+
+header nav ul li:last-child {
+    margin-right: 0; /* Remove the margin after the last item */
+}
+
+header nav ul li a {
+    font-family: 'Roboto Mono', monospace; /* Updated font family */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.2em; /* Font size for the links */
+}
+
+header nav ul li a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Responsive design: Make the header text and links scale on smaller screens */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5em; /* Smaller font size for smaller screens */
+    }
+
+    header nav ul li a {
+        font-size: 1em; /* Slightly larger font size for links on smaller screens */
+    }
+}
+
+
+.header-logo {
+    position: absolute;
+    top: 10px; /* Adjust to position it further down or up */
+    left: 10px; /* Adjust to position it further to the right or left */
+    width: 80px; /* Adjust the size of the logo */
+    height: auto; /* Maintain the logo's aspect ratio */
+  }
+
+
+
+.link-1 {
+    color: black; /* Green color for the first link */
+    text-decoration: none;
+    font-family:system-ui;        
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.link-2 {
+    color: black; /* Blue color for the second link */
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family:system-ui;        
+    font-weight: bold;
+
+}
+
+.link-3 {
+    color: black; /* Pink color for the third link */
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family:system-ui;        
+    font-weight: bold;
+
+
+}
+
+.link-4 {
+    color: black; /* Pink color for the third link */
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family:system-ui;        
+    font-weight: bold;
+
+}
+
+.link-5 {
+    color: black; /* Pink color for the third link */
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family:system-ui;        
+    font-weight: bold;
+
+}
+
+
+/* Section styling */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures section covers full viewport height */
+}
+
+/* Container styling for image */
+.Container img {
+    height: 300px;
+    border-radius: 50%;
+    border: none; /* Ensure no border around image */
+}
+
+/* Container styling for heading */
+.Container h2 {
+    margin-top: 2%;
+    font-size: 3em;
+    font-family: Courier New, monospace	 /* Font for the title */
+}
+
+/* Container styling for paragraph and unordered list */
+.Container p, ul {
+    margin-top: 2%;
+    font-size: 1.5rem;
+}
+
+/* Footer styling */
+
+
+/* Navigation bar styling */
+header nav ul li a {
+    font-size: 0.9em; /* Smaller font size for the nav bar */
+}
+
+#top{
+    min-height: 290px; /* Minimum height */
+    max-height: 290px; /* Maximum height */
+    background-image: url(/images/background.png);
+    background-size: cover;
+    padding: 20px;
+    
+
+}
+
+#bottom{
+    min-height: 150px; /* Minimum height */
+    max-height: 150px; /* Maximum height */
+    background-color:#edf0f6;
+    background-size: cover;
+    background-position: right center; /* Positions the image on the right side */
+    background-size: auto 100%; /* Adjusts the image height to 100% of the container height, width is auto */
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+    width: 100%;
+    height: 400px; /* Example height, adjust as needed */}
+
+#bot{
+
+   min-height: 50px; 
+   max-height: 50px;
+   background-color:#edf0f6;
+   background-size: cover;
+   background-position: right center; /* Positions the image on the right side */
+   background-size: auto 100%; /* Adjusts the image height to 100% of the container height, width is auto */
+   background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+   width: 100%;
+   height: 400px; /* Example height, adjust as needed */}
+
+
+
+
+
+#master {
+    background-color: #ffffff;
+    max-height: 400px;
+    min-height: 400px;
+}
+
+#updates {
+    background-color: #ffffff;
+    min-height: 400px;
+    max-height: 400px
+}
+
+#watch p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family:system-ui;        
+    font-weight: lighter;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+#watch {
+    background-color: #edf0f6;
+    min-height: 400px;
+    max-height: 400px;
+    
+}
+
+
+.half {
+    width: 50%; /* Half of the section */
+    height: 100%; /* Full height of the section */
+}
+
+.left2 {
+    background-color: #edf0f6; /* Background color */
+    background-size: cover; /* Ensures the background image covers the section */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background from repeating */
+    display: flex; /* Enables flexbox */
+    flex-direction: column; /* Aligns content in a column (vertical stack) */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    text-align: center; /* Centers text within its container */
+    min-height: 350px;
+    max-height: 350px;
+    padding-left: 15px;
+    padding-right: 14px;
+}
+
+.left4 {
+    background-color: #ffffff; /* Background color */
+    background-size: cover; /* Ensures the background image covers the section */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background from repeating */
+    display: flex; /* Enables flexbox */
+    flex-direction: column; /* Aligns content in a column (vertical stack) */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    text-align: center; /* Centers text within its container */
+    max-height: 350px;
+    min-height: 350px;
+
+}
+  
+
+.left3 {
+    background-color: #ffffff; /* Background color */
+    background-size: cover; /* Ensures the background image covers the section */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background from repeating */
+    display: flex; /* Enables flexbox */
+    flex-direction: column; /* Aligns content in a column (vertical stack) */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    text-align: center; /* Centers text within its container */
+    padding: 0 20px; 
+    max-height: 350px;
+    min-height: 350px;
+}
+
+#master h2 {
+    font-family: 'Optima', 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    font-size: 50px; /* Adjust heading size */
+    margin-bottom: 20px; /* Adds space below the heading */
+    color: #000000; /* Optional: Custom text color */
+    padding-right: 80px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+
+}
+
+.right2 {
+    background-color: #edf0f6;
+    background-size: cover; /* Cover half of the section */
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    font-size:x-large;
+    max-height: 350px;
+    min-height: 350px;
+    padding-left: 10px;
+    padding-right: 30px;
+
+}
+
+.right4 {
+    background-color: #ffffff;
+    background-size: cover; /* Cover half of the section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size:x-large;
+    max-height: 350px;
+    min-height: 350px;
+    padding-right: 15px;
+    padding-left: 35px;
+}
+
+.right3 {
+    background-color: #ffffff;
+    background-size: cover; /* Cover half of the section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    font-size:x-large;
+    max-height: 350px;
+    min-height: 350px;
+}
+
+#updates h2 {
+    font-family: 'Optima', 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    font-size: 50px; /* Adjust heading size */
+    color: #000000; /* Optional: Custom text color */
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+
+#updates p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family:system-ui;        
+    font-weight: lighter;
+    padding-left: 0px;
+    padding-right: 62px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    
+}
+
+#watch h2 {
+    font-family: 'Optima', 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    font-size: 50px; /* Adjust heading size */
+    margin-bottom: 20px; /* Adds space below the heading */
+    color: #000000; /* Optional: Custom text color */
+    padding-right: 20px;
+    padding-left: 60px;
+    padding-bottom: 10px;
+    padding-top: 135px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#getinvolved h2 {
+    font-family: 'Optima', 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    font-size: 50px; /* Adjust heading size */
+    color: #000000; /* Optional: Custom text color */
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 16%;
+}
+
+
+
+footer {
+    line-height: 30px;
+    display: flex;
+    background-color: #edf0f6;
+    color:rgb(0, 0, 0)
+    
+}
+
+footer img {
+    width: 50px;       /* Set width */
+    height: 50px;      /* Set height */
+}
